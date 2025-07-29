@@ -10,7 +10,6 @@ export default defineConfig({
     alias: {
       "@": path.resolve(__dirname, "./src"),
     },
-  },
-  base:"/CoursePlayer" // Add this for GitHub Pages deployment
+  }
 })
 
