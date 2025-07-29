@@ -1,0 +1,37 @@
+/* Layout fixes for player and sidebar */
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.h-screen {
+  height: 100vh !important;
+}
+
+/* Make the sidebar scrollable */
+.overflow-y-auto {
+  overflow-y: auto !important;
+}
+
+/* Fix for the video container to take full height */
+.video-container {
+  height: 100% !important;
+  min-height: unset !important;
+}
+
+/* Ensure the main content area takes full height */
+.flex-1 {
+  flex: 1 1 0% !important;
+}
+
+/* Ensure grid takes full height */
+.min-h-0 {
+  min-height: 0 !important;
+}
+
+/* Fix for the card containing the file explorer */
+.h-full {
+  height: 100% !important;
+}
